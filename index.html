@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    
+     Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+     TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries
+    
+     Your web app's Firebase configuration
+     For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDrwZAmokYgaCRwbCZz-oGwf9UDE_HJo48",
+      authDomain: "balao-de-ar-quente-812db.firebaseapp.com",
+      databaseURL: "https://balao-de-ar-quente-812db-default-rtdb.firebaseio.com",
+      projectId: "balao-de-ar-quente-812db",
+      storageBucket: "balao-de-ar-quente-812db.appspot.com",
+      messagingSenderId: "30815798644",
+      appId: "1:30815798644:web:04001b58b4a8e71047d821",
+      measurementId: "G-M6X2RB0NGS"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+  
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
